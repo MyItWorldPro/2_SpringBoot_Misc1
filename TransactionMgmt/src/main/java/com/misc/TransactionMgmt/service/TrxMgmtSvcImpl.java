@@ -7,8 +7,7 @@ import com.misc.TransactionMgmt.repo.AuthorRepo;
 import com.misc.TransactionMgmt.repo.BookRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import javax.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 
 
 @Service
